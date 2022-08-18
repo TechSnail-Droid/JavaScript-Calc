@@ -1,0 +1,30 @@
+.calculator{
+    display: flex;
+    margin-top:10px;
+}
+.search-bar{
+    height:40px;
+    font-size: 20px;
+}
+
+.number-buttons{
+    display:grid;
+    gap:1px;
+    grid-template-columns: repeat(3,1fr);
+    width:150px;
+}
+
+.number:hover{
+    background-color: rgb(162, 162, 162);
+    cursor: pointer;
+}
+.number:active{
+    opacity: 0.9;
+}
+.function-buttons{
+    display: grid;
+    margin-left: 10px;
+}
+.operator{
+    cursor: pointer;
+}
